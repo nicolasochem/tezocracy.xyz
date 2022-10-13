@@ -5,6 +5,7 @@ import { Col, Row } from 'react-bootstrap';
 function Sponsors() {
   return (
     <div className='logos'>
+      <p>Sponsors:</p>
       <Row>
         <Col className='text-center'>
           <a href="https://midl.dev/tezos" target="_blank"><img src={midlBanner} alt="MIDL.dev" className="shadow p-3 mb-5 bg-body rounded"></img></a>
